@@ -6,7 +6,7 @@ stringNumber = repr(number)
 lastDigitString = stringNumber[-1]
 lastDigit = int(lastDigitString)
 
-print(f"The last digit of {number} is {lastDigit}", end='', sep='', flush=True)
+print(f"Last digit of {number} is {lastDigit}", end='', sep='', flush=True)
 
 if lastDigit == 0:
     print(" and is 0")

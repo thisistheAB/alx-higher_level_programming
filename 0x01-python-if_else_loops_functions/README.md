@@ -1,7 +1,10 @@
-**Project: If Else, Loops & Functions**
+#### **Project: If Else, Loops & Functions**
 
-_Assignment 1:_
-Figure out if a randomly generated number is positive or negative.
+
+Assignment 1: `Given a random number. Segregate: >0, <0, =0`
+**COMPLETED** - _Easy_ 
+
+Assignment 2: `Given a random number. Retrieve: last digit. Segregate: >5, =0, <6&!=0`
 
 
 ------------------------------------------------------------------------------------------------------------------------

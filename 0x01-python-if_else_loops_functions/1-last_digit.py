@@ -3,7 +3,12 @@ import random
 number = random.randint(-10000, 10000)
 
 stringNumber = repr(number)
-lastDigitString = stringNumber[-1]
+
+if number < 0:
+    lastDigitString = '-' + stringNumber[-1]
+else:
+    lastDigitString = stringNumber[-1]
+
 lastDigit = int(lastDigitString)
 
 print(f"Last digit of {number} is {lastDigit}", end='', sep='', flush=True)

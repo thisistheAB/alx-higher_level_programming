@@ -5,13 +5,12 @@ def no_c(my_string):
 
     inputList = list(my_string)
     resultString = ""
+    counter = 0
 
-    for counter in inputList:
-        if 'c' in inputList:
-            inputList.remove('c')
-        if 'C' in inputList:
-            inputList.remove('C')
-        if counter != 'C' and counter != 'c':
-            resultString = resultString + counter
+    for i in range(0, len(inputList)):
+        currentChar = inputList[counter]
+        if currentChar != 'C' and currentChar != 'c':
+            resultString = resultString + currentChar
+        counter += 1
 
     return resultString
